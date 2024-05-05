@@ -4,13 +4,13 @@
 }
 main{
     display: grid;
-    grid-template-columns: 52%;
+    grid-template-rows: 2;
     font-family: "Libre Franklin", sans-serif;
 }
 .problem{
     max-width: 100%;
     padding: 20px;
-    grid-column: 1;
+    grid-row: 1;
     
     h1{
         padding-top: 10%;
@@ -36,7 +36,7 @@ main{
     background-color: #b48972 ;
 }
 .probtext{
-    grid-column: 2;
+    grid-row: 2;
     text-align: center;
     padding-top: 7%;
     h1 {
@@ -69,6 +69,7 @@ main{
     position: relative;
     overflow: hidden; 
     height: 100%;
+    background-color: #4E2422;
 }
   
 .mission-content {
@@ -125,6 +126,7 @@ main{
     padding-left: 10px;
     padding-bottom: 0.75%;
     font-weight: 600;
+    color: white;
 }
 .title-line2{
     font-size: 130%;
@@ -132,6 +134,7 @@ main{
     padding-bottom: 15px;
     font-style: normal;
     padding-left: 10px;
+    color: white;
 }
 
 
@@ -140,6 +143,62 @@ em{
     font-weight: 900;
 }
 @media screen and (min-width: 768px) {
+    .problem{
+        max-width: 100%;
+        padding-top: 20px;
+        grid-column: 1;
+        
+        h1{
+            padding-top: 10%;
+            color: white;
+            font-size: 350%;
+            padding-bottom: 5%;
+        }
+        h2{
+            background-color: white;
+            width: 30%;
+            height: 10px;
+        }
+        h4{
+            padding-top: 5%;
+            font-size: 150%;
+            white-space: wrap;
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            color: white;
+            font-weight: 100;
+            padding-bottom: 20%;
+        }
+        background-color: #b48972 ;
+    }
+    .probtext{
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
+        padding-top: 7%;
+        h1 {
+            padding-top: 3%;
+            padding-bottom: 3%;
+            font-size: 180%; 
+        }
+    
+        p {
+            font-size: 15px; 
+            line-height: 1.5;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+    
+        h3{
+            justify-self: center;
+            background-color: #b48972 ;
+            margin: 30px;
+            height: 6px;
+            
+            
+    
+        }
+    }
     .mission-content {
         grid-template-columns: 33% 33% 33%;
     }
@@ -152,6 +211,7 @@ em{
     .three{
         grid-column: 3;
     }
+    
 }
 
 footer{
@@ -161,7 +221,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.25%;
+    border-top: 9px solid aliceblue; 
 }
 .words{
 float:left;
