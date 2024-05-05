@@ -9,29 +9,31 @@ main{
 }
 .problem{
     max-width: 100%;
-    padding: 20px;
     grid-row: 1;
     
     h1{
         padding-top: 10%;
         color: white;
-        font-size: 350%;
+        font-size: 250%;
         padding-bottom: 5%;
+        padding-left: 5%;
     }
     h2{
         background-color: white;
         width: 30%;
         height: 10px;
+        margin-left: 5%;
     }
     h4{
         padding-top: 5%;
-        font-size: 150%;
+        font-size: 100%;
         white-space: wrap;
         overflow: hidden; 
         text-overflow: ellipsis;
         color: white;
         font-weight: 100;
         padding-bottom: 20%;
+        padding-left: 5%;
     }
     background-color: #b48972 ;
 }
@@ -84,7 +86,7 @@ main{
     font-weight: 700;
 }
 .one{
-    margin: 10px;
+    margin-left: 10px;
     width: 90%; 
     height: 350px;
     border-radius: 7%;
