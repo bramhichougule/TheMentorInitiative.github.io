@@ -82,6 +82,13 @@ main.p{
         color:white
     }
 
+    main p{
+        text-align: center;
+        padding: 1% 18%;
+        color: #00171F;
+       
+    }
+
 @media screen and (min-width:800px){
     .video-container{
         display: flex;
@@ -107,10 +114,4 @@ main.p{
         padding: 3% 0% 1% 0%;
     }
     
-    main.p{
-        text-align: center;
-        padding: 1% 18%;
-        color: #00171F;
-       
-    }
 }
