@@ -37,6 +37,11 @@ main.p{
 a{
     text-decoration: none;
 }
+main{
+    a{
+        color:  #4E2422;
+    }
+}
 
 .card img {
     width: 100%;
