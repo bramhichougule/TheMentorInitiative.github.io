@@ -4,11 +4,10 @@
 }
 
     h1{
-    font-family: "Wix Madefor Text", sans-serif;
-    font-size: 72px;
-    font-weight: 600;
-    font-style: normal;
-    color: #0b3954;
+        font-size: 20%;
+        font-weight: 600;
+        font-style: normal;
+        color: #0b3954;
     }
     h2{
         color: #4E2422;
@@ -54,7 +53,7 @@
     }
     
     .text-overlay h1 {
-    font-size: 30px; 
+    font-size: 120%; 
     color: white;
     font-family: "Wix Madefor Text", sans-serif;
     }
