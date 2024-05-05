@@ -27,7 +27,7 @@ main{
         padding-top: 5%;
         font-size: 150%;
         white-space: wrap;
-        overflow: hidden; /* Truncate with ellipses (...) */
+        overflow: hidden; 
         text-overflow: ellipsis;
         color: white;
         font-weight: 100;
@@ -42,11 +42,11 @@ main{
     h1 {
         padding-top: 3%;
         padding-bottom: 3%;
-        font-size: 180%; /* Adjust font size for the heading */
+        font-size: 180%; 
     }
 
     p {
-        font-size: 15px; /* Adjust font size for paragraphs */
+        font-size: 15px; 
         line-height: 1.5;
         padding-left: 3%;
         padding-right: 3%;
@@ -65,9 +65,9 @@ main{
 .mission-container {
     padding-top: 2.5%;
     grid-column: 1/4;
-    width: 100%; /* Adjust width as needed */
-    position: relative; /* Needed for background image positioning */
-    overflow: hidden; /* Needed for background image positioning */
+    width: 100%; 
+    position: relative;
+    overflow: hidden; 
     height: 100%;
 }
   
@@ -84,38 +84,38 @@ main{
 }
 .one{
     margin: 10px;
-    width: 90%; /* Adjust width as needed */
+    width: 90%; 
     height: 350px;
     border-radius: 7%;
-    position: relative; /* Needed for background image positioning */
+    position: relative;
     overflow: hidden; 
     align-content: center;
-    background-image: url("icons/pencil-1891732_1280.jpg"); /* Replace with your image path */
-    background-size: cover; /* Scales the image to cover the entire element */
+    background-image: url("icons/pencil-1891732_1280.jpg"); 
+    background-size: cover; 
     background-position: center;
 }
 .two{
     margin: 10px;
-    width: 90%; /* Adjust width as needed */
+    width: 90%; 
     height: 350px;
     border-radius: 7%;
-    position: relative; /* Needed for background image positioning */
+    position: relative; 
     overflow: hidden; 
     align-content: center;
-    background-image: url("icons/turntable-1337986_1280.jpg"); /* Replace with your image path */
-    background-size: cover; /* Scales the image to cover the entire element */
+    background-image: url("icons/turntable-1337986_1280.jpg"); 
+    background-size: cover; 
     background-position: center;
 }
 .three{
     margin: 10px;
-    width: 90%; /* Adjust width as needed */
+    width: 90%; 
     height: 350px;
     border-radius: 7%;
-    position: relative; /* Needed for background image positioning */
+    position: relative; 
     overflow: hidden; 
     align-content: center;
-    background-image: url("icons/book-3531412_1280.jpg"); /* Replace with your image path */
-    background-size: cover; /* Scales the image to cover the entire element */
+    background-image: url("icons/book-3531412_1280.jpg"); 
+    background-size: cover; 
     background-position: center;
     padding-bottom: 15px;
   }
