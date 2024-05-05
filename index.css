@@ -39,10 +39,9 @@
     }
     
     .main-img img {
-    /* max-height: 100vw; */
     object-fit: cover;
     width: 100%;
-    border-radius: 25px; /* Optional: add border radius */
+    border-radius: 25px; 
     }
     
     .text-overlay{
@@ -55,7 +54,7 @@
     }
     
     .text-overlay h1 {
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px; 
     color: white;
     font-family: "Wix Madefor Text", sans-serif;
     }
@@ -76,30 +75,30 @@
     }
     .blog-section {
         margin-top: 5%;
-    text-align: center; /* Centers the heading */
-    margin: 2rem 0; /* Adds space above and below the section */
+    text-align: center; 
+    margin: 2rem 0; 
     }
     .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Evenly spaces cards horizontally */
-    margin: 0 auto; /* Centers the cards within the section */
+    justify-content: space-around;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     }
     .card {
-    width:90%; /* Adjust width as needed */
+    width:90%; 
     margin: 10px;
-    border-radius: 10px; /* Adds rounded corners */
-    background-color: #4E2422; /* Optional background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    border-radius: 10px;
+    background-color: #4E2422; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     .card img {
-    width: 100%; /* Stretches image to fill card width */
+    width: 100%; 
     object-fit: cover;
     height:70%;
-    border-top-left-radius: 10px; /* Maintains rounded corners for top corners */
-    border-top-right-radius: 10px; /* Maintains rounded corners for top corners */
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
     }
     .card-content {
     padding: 15px;
