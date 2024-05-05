@@ -58,36 +58,6 @@ padding: 15px;
     text-align: center;
 }
 
-footer {
-    background-color: #4E2422;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.words{
-width:35%;
-margin-left:3%;
-padding-right: 0%;
-}
-
-.insta{
-float: right;
-margin-right:3%;
-padding:20px;
-padding-left: 0;
-
-
-}
-footer p{
-    font-size: 12px;
-    margin: 1%; 
-    color:white;
-    padding: 0;
-    margin: 0;
-}
 
 @media screen and (min-width:800px){
     .course-container{
