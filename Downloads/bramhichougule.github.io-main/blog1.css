@@ -1,0 +1,88 @@
+*{
+    font-family: "Libre Franklin", sans-serif;
+    margin: 0;
+    line-height: 20px;
+}
+    html{
+        background-color: #f7f7f7;
+    }
+    main{
+        margin: 5% 10%;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+.title h1{
+    line-height: 40px;
+}
+
+    .disclaimer{
+        font-weight: 600;
+    }
+
+
+    h1{
+        padding: 3% 0%;
+    }
+    h2{
+        font-size:25px;
+        padding: 2% 0%;
+    }
+    p{
+        padding: 2% 0%;
+        line-height: 25px;
+    }
+    img{
+        padding: 2% 0%;
+
+    }
+    span{
+        font-weight:600;
+    }
+    .img{
+        width:95%;
+        height:25%;
+    }
+    .formula{
+        width:50%;
+    }
+    
+
+    @media screen and (min-width:800px){
+
+/* 
+        .title{
+            flex-direction: row;
+        } */
+
+        main{
+            margin: 5% 18%;
+        }
+
+        h2{
+            font-size:25px;
+            padding: 2% 0%;
+        }
+        p{
+            padding: 1% 0%;
+        }
+        img{
+            padding: 2% 0%;
+    
+        }
+        span{
+            font-weight:600;
+        }
+        .img{
+            width:95%;
+            height:25%;
+        }
+        .formula{
+            width:50%;
+        }
+    
+    }    
+    

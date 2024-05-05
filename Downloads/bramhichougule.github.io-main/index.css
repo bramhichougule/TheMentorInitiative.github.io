@@ -1,0 +1,186 @@
+*{
+    font-family: "Libre Franklin", sans-serif;
+    margin: 0;
+}
+
+    h1{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0b3954;
+    }
+    h2{
+        color: #4E2422;
+        margin-bottom: 1%;
+    }
+    .text{
+    padding: 10px 20px;
+    }
+    
+    html{
+        background-color: #b48972 ;
+
+    }
+    .local{
+        text-decoration: none;
+        color:white;
+    }
+    .local:hover{
+        text-decoration: underline;
+    }
+    main{
+    width: 100%;
+    }
+    .main-img {
+    position: relative;
+    width: 94%;
+    margin:3%;
+    }
+    
+    .main-img img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px; 
+    }
+    
+    .text-overlay{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width:100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    
+    .text-overlay h1 {
+    font-size: 30px; 
+    color: white;
+    font-family: "Wix Madefor Text", sans-serif;
+    }
+    .courses{
+        padding:2%;
+        background-color: white ;
+        border-color: #b48972;
+        width:fit-content;
+        margin:auto;
+        border-radius: 40px;
+        border-style:solid;
+        color: #4E2422;
+        margin-top: 2%;
+    }
+    .courses:hover{
+        background-color:#b48972 ;
+        color: white;
+    }
+    .blog-section {
+        margin-top: 5%;
+    text-align: center; 
+    margin: 2rem 0; 
+    }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card {
+    width:90%; 
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #4E2422; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+    width: 100%; 
+    object-fit: cover;
+    height:70%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    }
+    .card-content {
+    padding: 15px;
+    color:white;
+    }
+    .card-content h3{
+        font-size: 18px;
+    }
+    .card-content p{
+        font-size: 13px;
+        padding-top: 1.5%;
+    }
+    footer{
+        background-color: #4E2422;
+        position:absolute;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .words{
+    float:left;
+    width:25%;
+    margin-left:3%;
+   }
+
+   .insta{
+    float: right;
+    margin-right:3%;
+    padding:20px;
+
+
+   }
+    footer p{
+        font-size: 12px;
+        margin: 1%; 
+        color:white
+    }
+    @media screen and (min-width:800px)
+    {
+        .card-container{
+            flex-direction: row;
+            align-items: stretch;
+        }
+        .card{
+            width: 30%;
+        }
+        .text-overlay h1{
+            font-size: 55px;
+
+        }
+        .courses{
+            font-size: 20px;
+            width:15%;
+            font-weight:500;
+        }
+        .blog-section h2{
+            font-size: 30px;
+            padding:0px;
+        }
+        .card-content h3{
+            font-size: 12px;
+        }
+        .card-content p{
+            font-size: 9px;
+        }
+    }
+    @media screen and (min-width: 1000px)
+    {
+        .card-content h3{
+            font-size: 15px;
+        }
+        .card-content p{
+            font-size: 12px;
+        }
+    }
+    @media screen and (min-width: 1100px)
+    {
+        .card-content h3{
+            font-size:17px;
+        }
+        .card-content p{
+            font-size: 13px;
+        }
+    }
