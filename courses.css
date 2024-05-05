@@ -60,8 +60,6 @@ padding: 15px;
 
 footer{
     background-color: #4E2422;
-    position:absolute;
-    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
